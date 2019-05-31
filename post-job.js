@@ -22,7 +22,7 @@ $("#postForm").submit(function(event){
         job_description: job_description 
     });
     posting.done(function(data){
-    
+        window.location = "admin-home.html"
     })
     .fail(function(){
         alert("Something went wrong")
