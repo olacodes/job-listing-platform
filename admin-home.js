@@ -9,7 +9,7 @@ $.ajax({
         <div class="col-md-6 d-inline-flex jobpost  pt-4">
             <div class="card shadow">
                 <div class="card card-title text-center pt-1">
-                    <p bg-dark>${data.job_title}</p>
+                    <p>${data.job_title}</p>
                 </div>
                 <div class="card-body">
                     <p><strong>Company</strong>: ${data.company_name}</p>

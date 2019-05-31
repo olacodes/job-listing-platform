@@ -7,9 +7,9 @@ $.ajax({
     res.forEach(data => {
         output += `
         <div class="col-md-6 d-inline-flex jobpost pt-4">
-            <div class="card shadow bg-success">
+            <div class="card shadow">
                 <div class="card card-title text-center pt-1">
-                    <h3 class="text-white"><strong>${data.job_title}</strong></h3>
+                    <h3><strong>${data.job_title}</strong></h3>
                 </div>
                 <div class="card-body">
                     <p><strong>Company</strong>: ${data.company_name}</p>
