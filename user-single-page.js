@@ -17,7 +17,7 @@ $.ajax({
                     <p><strong>Location</strong>: ${data.job_location}</p>
                     <p><strong>Job Description</strong>:${data.job_description}</p>
                     <p>
-                    <a href="single_job_page.html" class="single btn btn-success" id="${data.id}">Read more</a>
+                    <a href="user-single-page.html" class="single btn btn-success" id="${data.id}">Read more</a>
                     </p>
                 </div>
             </div>
