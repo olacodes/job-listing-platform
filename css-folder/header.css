@@ -1,0 +1,25 @@
+.header{
+    width: 100vw;
+    height: 60vh;
+    background-image: linear-gradient(to right bottom, rgba(135, 207, 235, 0.526), blue), url(../images/header.jpeg);
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header_text{
+    color: white;
+    align-items: center;
+    font-weight: bolder
+}
+.post_header{
+    width: 100vw;
+    background-image: url(../images/post_a_job.jpg);
+    text-align: center;
+    background-size: cover;
+}
+footer{
+    text-align: center
+}
