@@ -21,5 +21,8 @@
     background-size: cover;
 }
 footer{
-    text-align: center
+    text-align: center;
+    background-color: black;
+    margin-top: 20px; 
+    color: white;
 }
