@@ -4,5 +4,4 @@ $.ajax({
 })
 .done(function(){
     window.location = "admin-home.html"
-
 })
