@@ -5,13 +5,13 @@ $.ajax({
 .done(function(res){
     let output = ""
     res.forEach(data => {
-        output += `<div class="row">
-        <div class="col-9 jobpost pt-3">
+        output += `
+        <div class="col-md-6 d-inline-flex jobpost  pt-4">
             <div class="card shadow">
                 <div class="card card-title text-center pt-1">
                     <p bg-dark>${data.job_title}</p>
                 </div>
-                <div class="card-body bg-info">
+                <div class="card-body">
                     <p><strong>Company</strong>: ${data.company_name}</p>
                     <p><strong>Location</strong>: ${data.job_location}</p>
                     <p><strong>Job Description</strong>:${data.job_description}</p>
@@ -22,11 +22,10 @@ $.ajax({
                 </div>
             </div>
             
-        </div>
-    </div>`
+        </div>`
     });
 
-    $(".container").html(output)
+    $(".row").html(output)
 
     $(".single").click(function(e){
         localStorage.setItem('jobId', this.id);
